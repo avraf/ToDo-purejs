@@ -1,0 +1,44 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<title>To Do's</title>
+	<link rel="stylesheet" type="text/css" href="css/general.css">	
+</head>
+<body>
+	<div id="tableTaskList">
+		<table>
+			<caption>Registered Tasks</caption>
+			<thead>
+				<tr>
+					<th>Done</th>
+					<th>Owner</th>
+					<th>Task</th>
+					<th>Creation Date</th>
+					<th>Priority</th>
+				</tr>
+			</thead>			
+			<tr id="tmplRow">
+				<td class="done"><input type="checkbox" disabled></td>
+				<td class="owner"><span>--</span></td>
+				<td class="text"><span>Click here to insert new row...</span></td>
+				<td class="createdDate"><span>n/a</span></td>
+				<td class="priority">
+					<select disabled>
+						<option>1</option>
+						<option>2</option>
+						<option>3</option>
+					</select>
+				</td>
+			</tr>
+		</table>
+	</div>
+	<section id="graphContainer">
+		<h3>Graph Title</h3>
+		<canvas id="graphTaskCanvas"></canvas>
+	</section>
+	<script type="text/javascript" src="js/globalContextVars.js"></script>
+	<script type="text/javascript" src="js/alterTable.js"></script>
+	<script type="text/javascript" src="js/rowOrderer.js"></script>
+	<script type="text/javascript" src="js/generator.js"></script>
+</body>
+</html>

@@ -1,0 +1,108 @@
+* {
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+html, body {
+	background-color: #E8E8E8;
+	height: 100%;
+}
+
+#tableTaskList {
+	width: 60%;
+	background-color: #3399ff;
+	height: 450px;
+	margin: 25px auto;
+}
+
+caption, h3 {
+	font: italic bold 20px/30px Georgia, serif;
+}
+
+table {
+	width: 100%;
+	border-collapse: collapse;
+}
+
+table, tr, th, td {
+	border: 1px solid black;
+}
+
+thead tr:first-child {
+	background-color: #FF9900;
+}
+
+tr:nth-child(even){
+	background-color: #FFCC66; 
+}
+
+tr:nth-child(odd){
+	background-color: #FFFF00; 
+}
+
+#tmplRow {
+	background-color: #99CCFF; 
+}
+
+th:nth-child(1){
+	width: 5%;
+}
+
+th:nth-child(2){
+	width: 15%;
+}
+
+th:nth-child(4){
+	width: 10%;
+}
+
+th:nth-child(5){
+	width: 5%;
+}
+
+input[type=checkbox] {
+	font-size: xx-large;
+	/*visibility: hidden;*/
+}
+
+.userInputMode {
+	width: 90%; 
+	height: 100%; 
+	background-color: #99CCFF;
+}
+
+.setButton {
+	width: 40px;
+	height: 20px;
+	border-color: #FFFF00;
+	border-width: 1px;
+	border-style: solid;	
+	position: absolute;
+}
+
+#goButton {	
+	background-color: #99CCFF;	
+	border-bottom-left-radius: 100%;
+	border-top-left-radius: 100%;
+	margin-left: 4px;
+}
+
+#noButton {
+	background-color: red;
+	border-bottom-right-radius: 100%;
+	border-top-right-radius: 100%;
+	margin-left: 40px;
+}
+
+#graphContainer {
+	width: 75%;
+	background-color: #003333;
+	min-height: 40%;
+	bottom: 0px;
+}
+
+h3 {
+	background-color: #FFFFFF; 
+}
+
